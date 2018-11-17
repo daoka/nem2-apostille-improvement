@@ -1,0 +1,10 @@
+{
+  "name": "nem2_lambda_utils",
+  "description": "Utilities for AWS Lambda of NEM2",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::xxxxxxxxxxxx:role/nem2_lambda_utils_lambda_function",
+  "environment": {},
+  "build": "cp -f ../../tsconfig.json ./ && tsc -p ./ && cp -f ./package.json ./dist  && npm install --only=production --prefix ./dist",
+  "clean": "rm -fr dist && rm ./tsconfig.json"
+}

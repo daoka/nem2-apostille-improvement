@@ -1,0 +1,22 @@
+{
+  "name": "nem2-lambda-utils",
+  "version": "0.0.1",
+  "description": "Utilities for AWS Lambda of NEM2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "daoka <daoka.sweep@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nem2-sdk": "^0.10.1",
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.15",
+    "@types/node": "^10.12.9",
+    "aws-sdk": "^2.358.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  }
+}
